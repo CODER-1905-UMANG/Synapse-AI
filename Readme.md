@@ -102,15 +102,15 @@ Conversations are stored in MongoDB and linked to authenticated users — create
 
 | Home | AI Chat | Imagify |
 |---|---|---|
-| ![Home](./ss/home.png) | ![AI Chat](./ss/chat.png) | ![Imagify](./ss/imagify.png) |
+| ![Home](./screenshots/HomePage1.png) | ![AI Chat](./screenshots/chat.png) | ![Imagify](./screenshots/imagify.png) |
 
 | Voice AI | Text Summarizer | Resume ATS Analyzer |
 |---|---|---|
-| ![Voice AI](./ss/voice.png) | ![Text Summarizer](./ss/summarizer.png) | ![Resume ATS](./ss/resume-ats.png) |
+| ![Voice AI](./screenshots/voicebot.png) | ![Text Summarizer](./screenshots/textsummarizer.png) | ![Resume ATS](./screenshots/resume.png) |
 
 **Settings**
 
-![Settings](./ss/settings.png)
+![Settings](./screenshots/settings.png)
 
 </div>
 
