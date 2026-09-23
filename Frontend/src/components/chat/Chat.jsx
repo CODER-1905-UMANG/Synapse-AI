@@ -13,7 +13,7 @@ import remarkGfm from "remark-gfm";
 import rehypeHighlight from "rehype-highlight";
 
 import "highlight.js/styles/github-dark.css";
-import "./chat.css";
+import "./Chat.css";
 
 const Chat = () => {
   const {
