@@ -4,9 +4,7 @@ import cors from "cors";
 
 import connectDB from "./config/db.js";
 
-import {
-  authMiddleware,
-} from "./config/authMiddleware.js";
+import { authMiddleware } from "./config/authMiddleware.js";
 
 import authRoutes from "./routes/auth.js";
 import chatRoutes from "./routes/chat.js";
@@ -25,7 +23,6 @@ const PORT = process.env.PORT || 8080;
 // ==================================================
 
 app.use(express.json());
-
 app.use(cors());
 
 // ==================================================
@@ -66,11 +63,15 @@ const startServer = async () => {
   try {
     await connectDB();
 
-    app.listen(PORT, () => {
-      console.log(
-        `Server running on port ${PORT}`
-      );
-    });
+    app.listen(
+      PORT,
+      "0.0.0.0",
+      () => {
+        console.log(
+          `Server running on port ${PORT}`
+        );
+      }
+    );
   } catch (error) {
     console.error(
       "Server startup failed:",
