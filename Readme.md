@@ -14,6 +14,9 @@ A full-stack AI workspace unifying conversational chat, voice interaction, image
 
 [Features](#-features) • [Screenshots](#️-screenshots) • [Tech Stack](#️-tech-stack) • [Architecture](#️-application-architecture) • [Setup](#️-local-setup) • [Security](#-security-practices)
 
+[🚀 Live Demo](https://synapse-ai-frontend-tau.vercel.app/) •
+[🎥 Project Demo](https://drive.google.com/file/d/1_eT338quLt1-VeXaWSLxFR7C872EZuKC/view?usp=sharing)
+
 </div>
 
 ---
